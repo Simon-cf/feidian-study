@@ -1,0 +1,230 @@
+body {
+    max-width: 540px;
+    min-width: 320px;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    font: normal normal 14px/1.5 Tahoma, "Lucida Grande", Verdana, "Microsoft Yahei", STXihei, hei;
+    color: #000;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-appearance: none;
+}
+
+i {
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+input {
+    outline: none;
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding-left: 8px;
+    font-size: 12px;
+}
+
+.header input {
+    flex: 1;
+    height: 26px;
+    padding-left: 25px;
+    border: 1px solid #ccc;
+    background-color: #f8f6f6;
+    border-radius: 5px;
+    box-shadow: 2px 1px 4px 1px rgba(0, 0, 0, .2);
+}
+
+.header:before {
+    position: absolute;
+    content: '';
+    top: 15px;
+    left: 13px;
+    width: 15px;
+    height: 15px;
+    background: url(../images/sprite.png) no-repeat -59px -279px;
+    background-size: 104px auto;
+}
+
+.header a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 44px;
+    width: 44px;
+    padding-top: 3px;
+    background-color: #f8f6f6;
+}
+
+.header a::before {
+    content: '';
+    height: 25px;
+    width: 25px;
+    background: url(../images/sprite.png) no-repeat -57px -194px;
+    background-size: 104px auto;
+}
+
+.header a::after {
+    content: '我的';
+    height: 12px;
+    line-height: 12px;
+    color: skyblue;
+}
+
+.banner img {
+    height: 108px;
+}
+
+.nav ul {
+    display: flex;
+    height: 64px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.nav ul li {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav ul li::before {
+    content: '';
+    margin-top: 10px;
+    width: 32px;
+    height: 32px;
+    background: url(../images/localnav_bg.png) no-repeat 0 0px;
+    background-size: 32px;
+}
+
+.nav ul li:nth-child(2)::before {
+    background: url(../images/localnav_bg.png) no-repeat 0 -32px;
+    background-size: 32px;
+}
+
+.nav ul li:nth-child(3)::before {
+    background: url(../images/localnav_bg.png) no-repeat 0 -64px;
+    background-size: 32px;
+}
+
+.nav ul li:nth-child(4)::before {
+    background: url(../images/localnav_bg.png) no-repeat 0 -96px;
+    background-size: 32px;
+}
+
+.nav ul li:nth-child(5)::before {
+    background: url(../images/localnav_bg.png) no-repeat 0 -128px;
+    background-size: 32px;
+}
+
+.nav ul li span {
+    font-size: 12px;
+}
+
+.pl {
+    padding: 0 4px;
+}
+
+.main-nav ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4px;
+}
+
+.main-nav ul li {
+    display: flex;
+    height: 90px;
+    background-color: rgb(163, 73, 73);
+}
+
+.main-nav ul li:nth-child(1) {
+    border-radius: 10px 10px 0 0;
+    background: -webkit-linear-gradient(left, #FA5A55, #FA994D);
+}
+
+.main-nav ul li:nth-child(2) {
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    background: -webkit-linear-gradient(left, #4B90ED, #53BCED);
+}
+
+.main-nav ul li:nth-child(3) {
+    border-radius: 0 0 10px 10px;
+    background: -webkit-linear-gradient(left, #34C2A9, #6CD559);
+}
+
+.main-nav ul li span {
+    flex: 1;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+.main-nav ul li span:nth-child(1) {
+    padding-top: 10px;
+    background: url(../images/hotel.png) no-repeat center bottom;
+    background-size: auto 50px;
+}
+
+.main-nav ul li span:nth-of-type(2),
+.main-nav ul li span:nth-of-type(3) {
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+
+.main-nav ul li span i {
+    flex: 1;
+    padding-top: 10px;
+}
+
+.main-nav ul li span i:nth-of-type(1) {
+    border-bottom: 1px solid #fff;
+}
+
+.subnav ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.subnav ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 58px;
+    width: 20%;
+}
+
+.subnav ul li::before {
+    content: '';
+    margin-top: 10px;
+    height: 28px;
+    width: 28px;
+    background: url(../images/subnav-bg.png) no-repeat 0 0;
+    background-size: 28px auto;
+}
+
+.subnav ul li span {
+    font-size: 12px;
+}

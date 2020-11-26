@@ -1,0 +1,109 @@
+.border_line {
+    border-bottom: 2px solid #df3033;
+}
+
+.newuser {
+    height: 42px;
+    line-height: 42px;
+    margin-top: 22px;
+    padding: 0 11px;
+    background-color: #ececec;
+}
+
+.newuser span {
+    float: left;
+    font-size: 18px;
+}
+
+.newuser .load {
+    float: right;
+    font-size: 14px;
+    color: #333333;
+}
+
+.newuser a {
+    color: #df3033;
+}
+
+.register_content form {
+    padding: 54px 0 54px 314px;
+    border-bottom: 1px solid #ccc;
+}
+
+.register_content p {
+    height: 56px;
+    line-height: 56px;
+    font-size: 14px;
+    color: #4c4c4c;
+}
+
+.register_content span {
+    margin-left: 12px;
+    font-family: 'iconfont';
+    color: #df3033;
+    font-size: 12px;
+}
+
+.register_content p input {
+    height: 35px;
+    width: 240px;
+    outline: 0;
+}
+
+.register_content .number {
+    margin-left: 28px;
+}
+
+.register_content .pas {
+    margin-left: 14px;
+}
+
+.register_content .safe {
+    margin-left: 166px;
+    width: 159px;
+    color: #bebebe;
+}
+
+.register_content .safe span {
+    float: right;
+    width: 30px;
+    margin: 0 1px 0 0;
+    color: #fff;
+    text-align: center;
+}
+
+.register_content .safe .less {
+    margin-left: 10px;
+    background-color: #de1111;
+}
+
+.register_content .safe .middle {
+    background-color: #40b83f;
+}
+
+.register_content .safe .high {
+    background-color: #f79100;
+}
+
+.register_content .contract {
+    margin-left: 85px;
+}
+
+.register_content .contract input {
+    float: left;
+    margin: 3px 5px 0 0;
+}
+
+.register_content .contract a {
+    color: rgb(91, 172, 204);
+}
+
+.register_content button {
+    margin: 50px 0 0 96px;
+    width: 200px;
+    height: 35px;
+    border: 0;
+    background-color: #de1111;
+    color: #fff;
+    font-size: 14px;
+}
